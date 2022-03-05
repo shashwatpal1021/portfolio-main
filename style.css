@@ -605,6 +605,16 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+    
+    .my-img button {
+    border-radius: 100%; 
+    background-image: url(./removebg-preview.png);
+    width: 0px;
+    height: 0px;
+    border: 0px solid purple;
+    background-color: black;
+     margin-left: 0px;
+}
     .menu-btn{
         display: block;
         z-index: 999;
@@ -615,7 +625,7 @@ footer span a:hover{
     .navbar .menu{
         position: fixed;
         height: 100vh;
-        width: 100%;
+        width: 98%;
         left: -100%;
         top: 0;
         background: #111;
@@ -648,7 +658,7 @@ footer span a:hover{
         max-width: 930px;
     }
     .about .about-content .column{
-        width: 100%;
+        width: 990%;
     }
     .about .about-content .left{
         display: flex;
@@ -670,6 +680,15 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+    .my-img button {
+    border-radius: 99%; 
+    background-image: url(./removebg-preview.png);
+    width: 0px;
+    height: 0px;
+    border: 0px solid purple;
+    background-color: black;
+     margin-right: 0px;
+}
     .max-width{
         padding: 0 23px;
     }
@@ -688,6 +707,16 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .my-img button {
+    border-radius: 99%; 
+    background-image: url(./removebg-preview.png);
+    width: 0px;
+    height: -px;
+    border: 0px solid purple;
+    background-color: black;
+     margin-left: 0px;
+}
+
     .home .home-content .text-2{
         font-size: 50px;
     }
